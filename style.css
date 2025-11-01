@@ -1,1 +1,110 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* Skills */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eef3ff;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  section {
+    margin: 1rem;
+  }
+
+  header nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
 
